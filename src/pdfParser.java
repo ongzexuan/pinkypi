@@ -42,40 +42,61 @@ public class pdfParser {
 
             Set<String> fields = form.getFields().keySet();
             for (String key : fields) {
-                pw.print(key + ": ");
+
+                boolean isCheckBox = false;
+
+                pw.print(key + ":");
                 switch(form.getFieldType(key)) {
                     case AcroFields.FIELD_TYPE_CHECKBOX:
-                        pw.println("Checkbox");
+                        pw.print("Checkbox");
+                        isCheckBox = true;
                         break;
                     case AcroFields.FIELD_TYPE_COMBO:
-                        pw.println("Combobox");
+                        pw.print("Combobox");
                         break;
                     case AcroFields.FIELD_TYPE_LIST:
-                        pw.println("List");
+                        pw.print("List");
                         break;
                     case AcroFields.FIELD_TYPE_NONE:
-                        pw.println("None");
+                        pw.print("None");
                         break;
                     case AcroFields.FIELD_TYPE_PUSHBUTTON:
-                        pw.println("Pushbutton");
+                        pw.print("Pushbutton");
                         break;
                     case AcroFields.FIELD_TYPE_RADIOBUTTON:
-                        pw.println("Radiobutton");
+                        pw.print("Radiobutton");
                         break;
                     case AcroFields.FIELD_TYPE_SIGNATURE:
-                        pw.println("Signature");
+                        pw.print("Signature");
                         break;
                     case AcroFields.FIELD_TYPE_TEXT:
-                        pw.println("Text");
+                        pw.print("Text");
                         break;
                     default:
-                        pw.println("?");
+                        pw.print("?");
                 }
 
+                //post-processing for checkboxes
+                String data = form.getField(key);
+                if (data.equals("")) {
+                    if(isCheckBox) {
+                        data = "No";
+                    }
+                }
 
+                //print data
+                pw.println(":" + data);
 
 
             }
+
+            // Get possible values for field "CP_1"
+//                pw.println("Possible values for SCActEnd:");
+//                String[] states = form.getAppearanceStates("SCActEnd");
+//                for (int i = 0; i < states.length; i++) {
+//                    pw.print(" - ");
+//                    pw.println(states[i]);
+//                }
 
             pw.flush();
             pw.close();

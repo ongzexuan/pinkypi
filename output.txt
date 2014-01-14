@@ -1,210 +1,210 @@
-SCActEnd: Text
-5BProtocolNumber: Text
-QSHumans: Checkbox
-SCContinue: Checkbox
-1CUseEquip: Checkbox
-VAnimals: Checkbox
-1BStudentPrinted: Text
-HSAS: Text
-HSIRBPrinted3: Text
-HSIRBPrinted2: Text
-1ASchoolAdd2: Text
-HSIRBPrinted1: Text
-1ASchoolAdd1: Text
-1CGroupExp: Text
-6BTissuesObtained: Text
-SCNonPhone2: Text
-SCNonPhone1: Text
-7-0708Chg: Text
-pprovalDate: Text
-1CSAPrinted: Text
-6BFresh: Checkbox
-CFParticipantPrinted: Text
-5BStudentRole: Text
-6AQSStudentTraining: Text
-7-0809Chg: Text
-Vertebrates: Checkbox
-rDNA: Checkbox
-1BParentName: Text
-StudentChecklist: Checkbox
-CFConfidentiality1: Text
-Humans: Checkbox
-6BOrgan: Checkbox
-6BQSEmail: Text
-1BStateSRCChairDate: Text
-SCNonName1: Text
-SCNonName2: Text
-6BQSInstitution: Text
-ASPrinted: Text
-TeamMember2: Text
-5BSpeciesUsed: Text
-TeamMember3: Text
-SCResPlan: Checkbox
-9-10Ab: Checkbox
-ResearchInst: Checkbox
-QSRuleReview: Checkbox
-SCAbstract: Checkbox
-QSSubset: Checkbox
-QSHazard: Checkbox
-7-0809Theme: Text
-QSControl: Checkbox
-VT5B: Checkbox
-VT5A: Checkbox
-CF7: Checkbox
-7SigDate: Text
-7-0809Title: Text
-ApprovalForm: Checkbox
-ASPhone: Text
-RAQSReviewDate: Text
-7-0708Title: Text
-QSWhoSuper: Text
-RAQSPrinted: Text
-1CRulesReview: Checkbox
-SCActStart: Text
-RADisposal: Text
-QSExperience: Text
-ASEmail: Text
-1AEMail: Text
-7-CurrChg: Text
-1CSATitle: Text
-6BQSTitle: Text
-VTQS: Checkbox
-1ASchool: Text
-6BInstitutionObtained: Text
-QSSuperTraining: Text
-1CSAEmail: Text
-CFParentAssentPrinted: Text
-5ADSEmail: Text
-7-0809Var: Text
-Microorganisms: Checkbox
-AdultSponsorChecklist: Checkbox
-5AVetEmail: Text
-CFPurpose1: Text
-6BHuman: Checkbox
-WorkedWithStudent: Checkbox
-1AASEmail: Text
-1BStateSRCChairPrinted: Text
-RASafety: Text
-SCResInst: Checkbox
-CFAdultAssentDate: Text
-5AVetPrinted: Text
-RAQSPosition: Text
-1AGrade: Text
-HazRisk: Checkbox
-SCOther: Checkbox
-5ACommonName: Text
-LegalInstrument: Checkbox
-7-0708Theme: Text
-1CRuleReview: Checkbox
-AllProjectItems: Checkbox
-1CCreative: Text
-7-CurrVar: Text
-PotHaz: Checkbox
-1BSRCChairAppDate: Text
-7-CurrObj: Text
-6AMinimizeRisk: Text
-SampleInformedConsent: Checkbox
-PHRisk: Checkbox
-Tissues: Checkbox
-6ADisposal: Text
-QSSuper: Checkbox
-5ADSPrinted: Text
-SCNonAdd1B: Text
-QSPosition: Text
-SCNonAdd1A: Text
-5BTissueUse: Checkbox
-1CSpecificProcs: Text
-ContinForm: Checkbox
-1APhone: Text
-CFParentAssentDate: Text
-QualSciForm: Checkbox
-6AConcurExp: Text
-QSApprovalDate: Text
-5AHousing: Text
-QSDSEmail: Text
-6BQSPrinted: Text
-CFAskedTo1: Text
-QSName: Text
-QSDSTraining: Text
-QSVert: Checkbox
-7-0708Var: Text
-CFASEmail: Text
-10-11Ab: Checkbox
-ProjectTitle2: Text
-6ASite: Text
-IncHumans: Checkbox
-RAIDHazards: Text
-7-0708Obj: Text
-1BSRCChairPrinted: Text
-HSSubmitResPlan: Checkbox
-QSDSPhone: Text
-RAQSEmail: Text
-1CGetIdea: Text
-5ASRCChairPrinted: Text
-1BDateAck: Text
-1AAdultSpon: Text
-HazQS: Checkbox
-HSIRBDegree3: Text
-HSIRBDegree2: Text
-SCNonAdd2A: Text
-HSIRBDegree1: Text
-CFTimeRequired1: Text
-HumanSub: Checkbox
-SCNonAdd2B: Text
-QSInstitution: Text
-6BPrimary: Checkbox
-7-0809Obj: Text
-1BSRCIRBAppDate: Text
-PH6B: Checkbox
-CFBenefits: Text
-5AAftermath: Text
-PH6A: Checkbox
-QSDegrees: Text
-CFRisks1: Text
-ChecklistReview: Checkbox
-RAIDAssess: Text
-StudentName: Text
-1ASchoolPhone: Text
-1CPerformExp: Checkbox
-HSWorkingQS: Checkbox
-SCField: Checkbox
-5BNumberUse: Text
-6BBlood: Checkbox
-RAQSTraining: Text
-ASDateofReview: Text
-1BSRCPrinted: Text
-1BDateApp: Text
-ReviewRules: Checkbox
-6ABiosafetyLevel: Text
-7CurrTheme: Text
-ResearchPlan: Checkbox
-6BBodyFluids: Checkbox
-QSPrinted: Text
-6AConcur: Checkbox
-SCSchool: Checkbox
-1BRegSsRCChairPrinted: Text
-QSEducation: Text
-QSAddress: Text
-1CSubset: Checkbox
-1BRegSRCChairDate: Text
-HSAttachSurvey: Checkbox
-SCOtherExpl: Text
-1CSADateSigned: Text
-HSASEmail: Text
-HAZ: Checkbox
-CFAdultSponsor: Text
-5BLabTraining: Text
-7CurrTitle: Text
-PriorApprovalRequired: Checkbox
-ProjectTitle: Text
-QSDSPrinted: Text
-PHQS: Checkbox
-5BDeath: Text
-HSInformedConsentAttached: Checkbox
-6ABiologicAgents: Text
-1ATeamLeader: Text
-RAResources: Text
-QSEmail: Text
-SCHome: Checkbox
-1CSAAddress: Text
-1CSAInstitution: Text
+SCActEnd:Text:
+5BProtocolNumber:Text:
+QSHumans:Checkbox:No
+SCContinue:Checkbox:No
+1CUseEquip:Checkbox:No
+VAnimals:Checkbox:No
+1BStudentPrinted:Text:
+HSAS:Text:
+HSIRBPrinted3:Text:
+HSIRBPrinted2:Text:
+1ASchoolAdd2:Text:
+HSIRBPrinted1:Text:
+1ASchoolAdd1:Text:
+1CGroupExp:Text:
+6BTissuesObtained:Text:
+SCNonPhone2:Text:
+SCNonPhone1:Text:
+7-0708Chg:Text:
+pprovalDate:Text:
+1CSAPrinted:Text:
+6BFresh:Checkbox:No
+CFParticipantPrinted:Text:
+5BStudentRole:Text:
+6AQSStudentTraining:Text:
+7-0809Chg:Text:
+Vertebrates:Checkbox:No
+rDNA:Checkbox:No
+1BParentName:Text:
+StudentChecklist:Checkbox:Yes
+CFConfidentiality1:Text:
+Humans:Checkbox:No
+6BOrgan:Checkbox:No
+6BQSEmail:Text:
+1BStateSRCChairDate:Text:
+SCNonName1:Text:
+SCNonName2:Text:
+6BQSInstitution:Text:
+ASPrinted:Text:
+TeamMember2:Text:
+5BSpeciesUsed:Text:
+TeamMember3:Text:
+SCResPlan:Checkbox:No
+9-10Ab:Checkbox:No
+ResearchInst:Checkbox:No
+QSRuleReview:Checkbox:No
+SCAbstract:Checkbox:No
+QSSubset:Checkbox:No
+QSHazard:Checkbox:No
+7-0809Theme:Text:
+QSControl:Checkbox:No
+VT5B:Checkbox:No
+VT5A:Checkbox:No
+CF7:Checkbox:No
+7SigDate:Text:
+7-0809Title:Text:
+ApprovalForm:Checkbox:Yes
+ASPhone:Text:
+RAQSReviewDate:Text:
+7-0708Title:Text:
+QSWhoSuper:Text:
+RAQSPrinted:Text:
+1CRulesReview:Checkbox:No
+SCActStart:Text:
+RADisposal:Text:
+QSExperience:Text:
+ASEmail:Text:
+1AEMail:Text:
+7-CurrChg:Text:
+1CSATitle:Text:
+6BQSTitle:Text:
+VTQS:Checkbox:No
+1ASchool:Text:
+6BInstitutionObtained:Text:
+QSSuperTraining:Text:
+1CSAEmail:Text:
+CFParentAssentPrinted:Text:
+5ADSEmail:Text:
+7-0809Var:Text:
+Microorganisms:Checkbox:No
+AdultSponsorChecklist:Checkbox:Yes
+5AVetEmail:Text:
+CFPurpose1:Text:
+6BHuman:Checkbox:No
+WorkedWithStudent:Checkbox:Yes
+1AASEmail:Text:
+1BStateSRCChairPrinted:Text:
+RASafety:Text:
+SCResInst:Checkbox:No
+CFAdultAssentDate:Text:
+5AVetPrinted:Text:
+RAQSPosition:Text:
+1AGrade:Text:
+HazRisk:Checkbox:No
+SCOther:Checkbox:No
+5ACommonName:Text:
+LegalInstrument:Checkbox:No
+7-0708Theme:Text:
+1CRuleReview:Checkbox:No
+AllProjectItems:Checkbox:Yes
+1CCreative:Text:
+7-CurrVar:Text:
+PotHaz:Checkbox:No
+1BSRCChairAppDate:Text:
+7-CurrObj:Text:
+6AMinimizeRisk:Text:
+SampleInformedConsent:Checkbox:No
+PHRisk:Checkbox:No
+Tissues:Checkbox:No
+6ADisposal:Text:
+QSSuper:Checkbox:No
+5ADSPrinted:Text:
+SCNonAdd1B:Text:
+QSPosition:Text:
+SCNonAdd1A:Text:
+5BTissueUse:Checkbox:No
+1CSpecificProcs:Text:
+ContinForm:Checkbox:No
+1APhone:Text:
+CFParentAssentDate:Text:
+QualSciForm:Checkbox:No
+6AConcurExp:Text:
+QSApprovalDate:Text:
+5AHousing:Text:
+QSDSEmail:Text:
+6BQSPrinted:Text:
+CFAskedTo1:Text:
+QSName:Text:
+QSDSTraining:Text:
+QSVert:Checkbox:No
+7-0708Var:Text:
+CFASEmail:Text:
+10-11Ab:Checkbox:No
+ProjectTitle2:Text:
+6ASite:Text:
+IncHumans:Checkbox:No
+RAIDHazards:Text:
+7-0708Obj:Text:
+1BSRCChairPrinted:Text:
+HSSubmitResPlan:Checkbox:No
+QSDSPhone:Text:
+RAQSEmail:Text:
+1CGetIdea:Text:
+5ASRCChairPrinted:Text:
+1BDateAck:Text:
+1AAdultSpon:Text:
+HazQS:Checkbox:No
+HSIRBDegree3:Text:
+HSIRBDegree2:Text:
+SCNonAdd2A:Text:
+HSIRBDegree1:Text:
+CFTimeRequired1:Text:
+HumanSub:Checkbox:No
+SCNonAdd2B:Text:
+QSInstitution:Text:
+6BPrimary:Checkbox:No
+7-0809Obj:Text:
+1BSRCIRBAppDate:Text:
+PH6B:Checkbox:No
+CFBenefits:Text:
+5AAftermath:Text:
+PH6A:Checkbox:No
+QSDegrees:Text:
+CFRisks1:Text:
+ChecklistReview:Checkbox:Yes
+RAIDAssess:Text:
+StudentName:Text:Ong Ze Xuan
+1ASchoolPhone:Text:
+1CPerformExp:Checkbox:No
+HSWorkingQS:Checkbox:No
+SCField:Checkbox:No
+5BNumberUse:Text:
+6BBlood:Checkbox:No
+RAQSTraining:Text:
+ASDateofReview:Text:
+1BSRCPrinted:Text:
+1BDateApp:Text:
+ReviewRules:Checkbox:Yes
+6ABiosafetyLevel:Text:
+7CurrTheme:Text:
+ResearchPlan:Checkbox:Yes
+6BBodyFluids:Checkbox:No
+QSPrinted:Text:
+6AConcur:Checkbox:No
+SCSchool:Checkbox:No
+1BRegSsRCChairPrinted:Text:
+QSEducation:Text:
+QSAddress:Text:
+1CSubset:Checkbox:No
+1BRegSRCChairDate:Text:
+HSAttachSurvey:Checkbox:No
+SCOtherExpl:Text:
+1CSADateSigned:Text:
+HSASEmail:Text:
+HAZ:Checkbox:No
+CFAdultSponsor:Text:
+5BLabTraining:Text:
+7CurrTitle:Text:
+PriorApprovalRequired:Checkbox:No
+ProjectTitle:Text:A project to make bread
+QSDSPrinted:Text:
+PHQS:Checkbox:No
+5BDeath:Text:
+HSInformedConsentAttached:Checkbox:No
+6ABiologicAgents:Text:
+1ATeamLeader:Text:
+RAResources:Text:
+QSEmail:Text:
+SCHome:Checkbox:No
+1CSAAddress:Text:
+1CSAInstitution:Text:

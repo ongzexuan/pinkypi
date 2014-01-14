@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e6197ea-c8c9-4d3a-89fc-ffad27411836" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssef2013forms.pdf" afterPath="$PROJECT_DIR$/ssef2013forms.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.txt" afterPath="$PROJECT_DIR$/output.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pdfParser.java" afterPath="$PROJECT_DIR$/src/pdfParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pdfParser.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="1e6197ea-c8c9-4d3a-89fc-ffad27411836" time="1389661789862" ignored="false" />
-    <file path="/pdfParser.java" changelist="1e6197ea-c8c9-4d3a-89fc-ffad27411836" time="1389664415891" ignored="false" />
+    <file path="/pdfParser.java" changelist="1e6197ea-c8c9-4d3a-89fc-ffad27411836" time="1389666310895" ignored="false" />
     <file path="/fragment.java" changelist="1e6197ea-c8c9-4d3a-89fc-ffad27411836" time="1389257780465" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +74,7 @@
       <file leaf-file-name="pdfParser.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pdfParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="12" selection-start="2405" selection-end="2405" vertical-scroll-proportion="0.39140812">
+            <state line="64" column="34" selection-start="1891" selection-end="1891" vertical-scroll-proportion="0.06921241">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -432,7 +433,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pdfParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="12" selection-start="2405" selection-end="2405" vertical-scroll-proportion="0.39140812">
+        <state line="64" column="34" selection-start="1891" selection-end="1891" vertical-scroll-proportion="0.06921241">
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
