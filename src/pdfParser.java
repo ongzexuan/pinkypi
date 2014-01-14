@@ -24,7 +24,6 @@ public class pdfParser {
 
         String in = "ssef2013forms.pdf";
         String out = "output.txt";
-        //extractText(in, out);
         getFields(in,out);
 
 
@@ -36,9 +35,9 @@ public class pdfParser {
         try {
 
 
-            PdfReader reader = new PdfReader(in);
-            PrintWriter pw = new PrintWriter(new FileOutputStream(out));
-            AcroFields form = reader.getAcroFields();
+            PdfReader reader = new PdfReader(in);//input
+            PrintWriter pw = new PrintWriter(new FileOutputStream(out));//output
+            AcroFields form = reader.getAcroFields();//get AcroFields (i.e. fill-in-spaces)
 
             Set<String> fields = form.getFields().keySet();
             for (String key : fields) {
@@ -46,7 +45,7 @@ public class pdfParser {
                 boolean isCheckBox = false;
 
                 pw.print(key + ":");
-                switch(form.getFieldType(key)) {
+                switch(form.getFieldType(key)) {   //may be useful for sorting later
                     case AcroFields.FIELD_TYPE_CHECKBOX:
                         pw.print("Checkbox");
                         isCheckBox = true;
@@ -76,7 +75,7 @@ public class pdfParser {
                         pw.print("?");
                 }
 
-                //post-processing for checkboxes
+                //post-processing for checkboxes to print no when null value is read
                 String data = form.getField(key);
                 if (data.equals("")) {
                     if(isCheckBox) {
@@ -98,6 +97,8 @@ public class pdfParser {
 //                    pw.println(states[i]);
 //                }
 
+
+            //close writer and reader
             pw.flush();
             pw.close();
             reader.close();
@@ -109,6 +110,10 @@ public class pdfParser {
         }
     }
 
+
+
+
+    //DO NOT USE ANYTHING BELOW THIS, NOT RELEVANT.
     //Parse PDF in gibberish 4 value terms I can't make sense of at the moment
     public static void parsePdf(String in, String out) {
         try{
