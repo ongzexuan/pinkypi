@@ -1,104 +1,136 @@
-SCActEnd:Text:
+SCActEnd:Text:07/31/2013
 5BProtocolNumber:Text:
-QSHumans:Checkbox:No
-SCContinue:Checkbox:No
 1CUseEquip:Checkbox:No
 VAnimals:Checkbox:No
-1BStudentPrinted:Text:
+StudentName#4:Text:
+SCContinue#1:Checkbox:No
+SCContinue#0:Checkbox:No
+1BStudentPrinted:Text:Wang Samuel Zhipeng
+QSSuper#1:Checkbox:No
 HSAS:Text:
+QSSuper#0:Checkbox:No
+StudentsName:Text:Wang Samuel Zhipeng
 HSIRBPrinted3:Text:
 HSIRBPrinted2:Text:
 1ASchoolAdd2:Text:
 HSIRBPrinted1:Text:
-1ASchoolAdd1:Text:
-1CGroupExp:Text:
-6BTissuesObtained:Text:
+1ASchoolAdd1:Text:20 Clementi Avenue 1 Singapore 129957
+6BTissuesObtained:Text:N/A
+1CGroupExp:Text:The students worked both individually, among themselves (3 NUS High School students working on SERIS projects) or with staff from SERIS, mainly the project manager (tutor) and other programmers.
+5aDSreview:Checkbox:No
 SCNonPhone2:Text:
-SCNonPhone1:Text:
+6aSRCIACUC:Checkbox:No
+SCNonPhone1:Text:+65 6516 7534
 7-0708Chg:Text:
-pprovalDate:Text:
-1CSAPrinted:Text:
+parentalno:Checkbox:No
+1CGroup Exp#1:Checkbox:No
+QSyes:Checkbox:No
 6BFresh:Checkbox:No
+1CSAPrinted:Text:Andre Nobre
 CFParticipantPrinted:Text:
-5BStudentRole:Text:
 6AQSStudentTraining:Text:
 7-0809Chg:Text:
+Vcare:Checkbox:No
 Vertebrates:Checkbox:No
 rDNA:Checkbox:No
 1BParentName:Text:
-StudentChecklist:Checkbox:Yes
+StudentChecklist:Checkbox:No
+parentalyes:Checkbox:No
 CFConfidentiality1:Text:
+Vapprovaldate:Text:
 Humans:Checkbox:No
 6BOrgan:Checkbox:No
 6BQSEmail:Text:
+SRCChair 5a date:Text:
 1BStateSRCChairDate:Text:
-SCNonName1:Text:
-SCNonName2:Text:
+SCNonName1:Text:SERIS
+ProjectTitle#5:Text:
+SCNonName2:Text:102 Arab Street
 6BQSInstitution:Text:
-ASPrinted:Text:
+5BSpeciesUsed:Text:N/A
+ASPrinted:Text:Andre Nobre
 TeamMember2:Text:
-5BSpeciesUsed:Text:
+6AConcur#0:Checkbox:No
 TeamMember3:Text:
+6AConcur#1:Checkbox:No
 SCResPlan:Checkbox:No
-9-10Ab:Checkbox:No
 ResearchInst:Checkbox:No
-QSRuleReview:Checkbox:No
+5BTissueUse#1:Checkbox:No
+5BTissueUse#0:Checkbox:No
 SCAbstract:Checkbox:No
-QSSubset:Checkbox:No
-QSHazard:Checkbox:No
+6absl2date:Text:
+ParentalNA:Checkbox:No
+notapproved:Checkbox:No
 7-0809Theme:Text:
-QSControl:Checkbox:No
+6aiacucdate:Text:
 VT5B:Checkbox:No
 VT5A:Checkbox:No
 CF7:Checkbox:No
 7SigDate:Text:
 7-0809Title:Text:
-ApprovalForm:Checkbox:Yes
-ASPhone:Text:
-RAQSReviewDate:Text:
+6anoapprovalrequired:Checkbox:No
+ApprovalForm:Checkbox:No
+ASPhone:Text:+6565167534
+RAQSReviewDate:Text:08/20/2013
 7-0708Title:Text:
+6bqsdate:Text:
+5bqspidate:Text:
 QSWhoSuper:Text:
-RAQSPrinted:Text:
-1CRulesReview:Checkbox:No
-SCActStart:Text:
-RADisposal:Text:
-QSExperience:Text:
-ASEmail:Text:
-1AEMail:Text:
+RAQSPrinted:Text:Andre Nobre
+SCActStart:Text:08/26/2010
+RADisposal:Text:N/A
+DSrequired:Checkbox:No
+QSHumans#0:Checkbox:No
+QSHumans#1:Checkbox:No
+ASEmail:Text:andre.nobre@nus.edu.sg
 7-CurrChg:Text:
-1CSATitle:Text:
+Project approved:Checkbox:No
+1CSATitle:Text:Project Manager
+HSIRBDATE:Text:
 6BQSTitle:Text:
+5adsdate:Text:
+6asrcapproval:Text:
+CFPurpose:Text:N/A
 VTQS:Checkbox:No
-1ASchool:Text:
+1ASchool:Text:NUS High School
+18+no:Checkbox:No
 6BInstitutionObtained:Text:
+written minor assentyes:Checkbox:No
 QSSuperTraining:Text:
-1CSAEmail:Text:
-CFParentAssentPrinted:Text:
+1CSAEmail:Text:andre.nobre@nus.edu.sg
 5ADSEmail:Text:
+CFParentAssentPrinted:Text:
 7-0809Var:Text:
 Microorganisms:Checkbox:No
-AdultSponsorChecklist:Checkbox:Yes
+18+yes:Checkbox:No
+AdultSponsorChecklist:Checkbox:No
 5AVetEmail:Text:
-CFPurpose1:Text:
 6BHuman:Checkbox:No
-WorkedWithStudent:Checkbox:Yes
-1AASEmail:Text:
+1CRulesReview#1:Checkbox:No
+1CRulesReview#0:Checkbox:No
+WorkedWithStudent:Checkbox:No
+1CSubset#1:Checkbox:No
+1AASEmail:Text:nhstkc@nus.edu.sg
 1BStateSRCChairPrinted:Text:
-RASafety:Text:
+RASafety:Text:N/A
+1CSubset#0:Checkbox:No
 SCResInst:Checkbox:No
 CFAdultAssentDate:Text:
+6boshealthact:Checkbox:No
 5AVetPrinted:Text:
-RAQSPosition:Text:
-1AGrade:Text:
+RAQSPosition:Text:Project Manager, SERIS
+1AGrade:Text:11th
 HazRisk:Checkbox:No
 SCOther:Checkbox:No
-5ACommonName:Text:
+5ACommonName:Text:N/A
 LegalInstrument:Checkbox:No
 7-0708Theme:Text:
-1CRuleReview:Checkbox:No
-AllProjectItems:Checkbox:Yes
-1CCreative:Text:
+Vcertdoses:Checkbox:No
+5aDAcert:Checkbox:No
+AllProjectItems:Checkbox:No
+1CCreative:Text:To be filled later...
 7-CurrVar:Text:
+6aSRCbsl2:Checkbox:No
 PotHaz:Checkbox:No
 1BSRCChairAppDate:Text:
 7-CurrObj:Text:
@@ -107,48 +139,59 @@ SampleInformedConsent:Checkbox:No
 PHRisk:Checkbox:No
 Tissues:Checkbox:No
 6ADisposal:Text:
-QSSuper:Checkbox:No
+Minimalrisk:Checkbox:No
 5ADSPrinted:Text:
-SCNonAdd1B:Text:
+SCNonAdd1B:Text:Block E3A, #06-01
 QSPosition:Text:
-SCNonAdd1A:Text:
-5BTissueUse:Checkbox:No
-1CSpecificProcs:Text:
+SCNonAdd1A:Text:7 Engineering Drive 1
+6aSRCChairPrintedName:Text:
+1CSpecificProcs:Text:To be filled later...
+ApprovalDate:Text:
 ContinForm:Checkbox:No
-1APhone:Text:
+1APhone:Text:92989061
 CFParentAssentDate:Text:
 QualSciForm:Checkbox:No
 6AConcurExp:Text:
-QSApprovalDate:Text:
+HSIRB2date:Text:
 5AHousing:Text:
+QSRuleReview#1:Checkbox:No
+QSRuleReview#0:Checkbox:No
 QSDSEmail:Text:
 6BQSPrinted:Text:
+18+NA:Checkbox:No
 CFAskedTo1:Text:
-QSName:Text:
+VDSQSRequired:Checkbox:No
+QSName:Text:N/A
 QSDSTraining:Text:
-QSVert:Checkbox:No
+6bqstissuesverify:Checkbox:No
 7-0708Var:Text:
 CFASEmail:Text:
-10-11Ab:Checkbox:No
-ProjectTitle2:Text:
 6ASite:Text:
+ProjectTitle2:Text:
+QSDSApprovalDate:Text:
 IncHumans:Checkbox:No
-RAIDHazards:Text:
+RAIDHazards:Text:N/A
+QSVert#1:Checkbox:No
 7-0708Obj:Text:
+QSVert#0:Checkbox:No
 1BSRCChairPrinted:Text:
+5BQSPIPrintedName:Text:
 HSSubmitResPlan:Checkbox:No
 QSDSPhone:Text:
-RAQSEmail:Text:
-1CGetIdea:Text:
+RAQSEmail:Text:andre.nobre@nus.edu.sg
+1CGetIdea:Text:The project idea was conceived by SERIS and picked from a list of available projects offered to NUS High School.
+minorassentNA:Checkbox:No
 5ASRCChairPrinted:Text:
+5BStudentrole:Text:
 1BDateAck:Text:
-1AAdultSpon:Text:
+1AAdultSpon:Text:Tan Kian Chuan
 HazQS:Checkbox:No
+QSSubset#1:Checkbox:No
+QSSubset#0:Checkbox:No
 HSIRBDegree3:Text:
 HSIRBDegree2:Text:
-SCNonAdd2A:Text:
+SCNonAdd2A:Text:Singapore 199798
 HSIRBDegree1:Text:
-CFTimeRequired1:Text:
 HumanSub:Checkbox:No
 SCNonAdd2B:Text:
 QSInstitution:Text:
@@ -160,51 +203,67 @@ CFBenefits:Text:
 5AAftermath:Text:
 PH6A:Checkbox:No
 QSDegrees:Text:
+6asrcbsl1:Checkbox:No
+12-13Ab:Checkbox:No
+qsno:Checkbox:No
 CFRisks1:Text:
-ChecklistReview:Checkbox:Yes
-RAIDAssess:Text:
-StudentName:Text:Ong Ze Xuan
-1ASchoolPhone:Text:
+ChecklistReview:Checkbox:No
+RAIDAssess:Text:All data was pre-collected by SERIS staff. No risk is involved in the usage of electronic data by the NUS High School students.
+StudentName:Text:Wang Samuel Zhipeng
+1ASchoolPhone:Text:+65 6516 1709
 1CPerformExp:Checkbox:No
-HSWorkingQS:Checkbox:No
-SCField:Checkbox:No
-5BNumberUse:Text:
 6BBlood:Checkbox:No
-RAQSTraining:Text:
-ASDateofReview:Text:
+5BNumberUse:Text:
+RAQSTraining:Text:??
+ASDateofReview:Text:08/20/2013
 1BSRCPrinted:Text:
 1BDateApp:Text:
-ReviewRules:Checkbox:Yes
+HSWorkingQS#0:Checkbox:No
+HSWorkingQS#1:Checkbox:No
+ReviewRules:Checkbox:No
+QSHazard#1:Checkbox:No
+QSHazard#0:Checkbox:No
+1AEmail:Text:samuel@highsch.nus.edu.sg
+morethanminimal:Checkbox:No
 6ABiosafetyLevel:Text:
+6absl1date:Text:
 7CurrTheme:Text:
-ResearchPlan:Checkbox:Yes
+ResearchPlan:Checkbox:No
 6BBodyFluids:Checkbox:No
+HSIRB3date:Text:
 QSPrinted:Text:
-6AConcur:Checkbox:No
 SCSchool:Checkbox:No
+VandDSrequired:Checkbox:No
 1BRegSsRCChairPrinted:Text:
 QSEducation:Text:
 QSAddress:Text:
-1CSubset:Checkbox:No
-1BRegSRCChairDate:Text:
+Vcert:Checkbox:No
+SCfield:Checkbox:No
 HSAttachSurvey:Checkbox:No
 SCOtherExpl:Text:
-1CSADateSigned:Text:
+QSControl#1:Checkbox:No
+QSControl#0:Checkbox:No
+1CSADateSigned:Text:08/20/2013
 HSASEmail:Text:
 HAZ:Checkbox:No
-CFAdultSponsor:Text:
 5BLabTraining:Text:
-7CurrTitle:Text:
+CFAdultSponsor:Text:
+7CurrTitle:Text:N/A
+1cGroupExp#0:Checkbox:No
+11-12Ab:Checkbox:No
 PriorApprovalRequired:Checkbox:No
-ProjectTitle:Text:A project to make bread
+CFTimeRequired:Text:
+ProjectTitle:Text:Performance of Photovoltaic Systems In the Tropics
 QSDSPrinted:Text:
+minorassentno:Checkbox:No
 PHQS:Checkbox:No
 5BDeath:Text:
+6ABiologicAgents:Text:N/A
 HSInformedConsentAttached:Checkbox:No
-6ABiologicAgents:Text:
-1ATeamLeader:Text:
-RAResources:Text:
+1ATeamLeader:Text:Wang Samuel Zhipeng
+RAResources:Text:N/A
+1BSRCChairDate:Text:
 QSEmail:Text:
 SCHome:Checkbox:No
-1CSAAddress:Text:
-1CSAInstitution:Text:
+1CSAInstitution:Text:Solar Energy Research Institute of Singapore (SERIS)
+1CSAAddress:Text:7 Engineering Drive 1, Block E3A, #06-01
