@@ -6,18 +6,19 @@
  * To change this template use File | Settings | File Templates.
  */
 
+import com.itextpdf.text.*;
+import com.itextpdf.text.io.RandomAccessSource;
 import com.itextpdf.text.io.RandomAccessSourceFactory;
 import com.itextpdf.text.pdf.*;
 import com.itextpdf.text.pdf.parser.*;
 
-import java.io.FileOutputStream;
-import java.io.PrintWriter;
-import java.util.Set;
+import java.util.*;
+import java.io.*;
 
 public class pdfParserDevice {
 
-    private static String in;
-    private static String out;
+    private String in;
+    private String out;
 
     public pdfParserDevice() {
         in = "";
@@ -29,7 +30,7 @@ public class pdfParserDevice {
         this.out = out;
     }
 
-    public static void getFields() {
+    public void getFields() {
         try {
 
             PdfReader reader = new PdfReader(in);//input

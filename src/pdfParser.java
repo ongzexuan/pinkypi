@@ -12,24 +12,36 @@ import com.itextpdf.text.io.RandomAccessSourceFactory;
 import com.itextpdf.text.pdf.*;
 import com.itextpdf.text.pdf.parser.*;
 
+import javax.xml.parsers.*;
+import javax.xml.transform.*;
+
+import java.net.URL;
 import java.util.*;
 import java.io.*;
 
 public class pdfParser {
 
+    private static URL url;
 
     public static void main(String[] args) {
 
-        System.out.println("Program started");
+        weatherDevice wd = new weatherDevice();
+        wd.pullDataFromWeb();
 
-        String in = "ssef2013forms.pdf";
-        String out = "output.txt";
-        getFields(in,out);
-
-
-        System.out.println("Program ended");
+//        System.out.println("Program started");
+//
+//        String in = "ssef2013forms.pdf";
+//        String out = "output.txt";
+//        getFields(in,out);
+//
+//        getRSS("http://weather.yahooapis.com/forecastrss?w=1062617");
+//
+//
+//        System.out.println("Program ended");
 
     }
+
+    //EVERYTHING ELSE IS IRRELEVANT DO NOT USE
 
     public static void getFields(String in, String out) {
         try {
@@ -110,6 +122,14 @@ public class pdfParser {
         }
     }
 
+//    public static void getRSS(String link) {
+//        try {
+//            this.url =  new URL(link);
+//        } catch(Exception e) {
+//            e.printStackTrace();
+//        }
+//
+//    }
 
 
 
