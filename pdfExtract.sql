@@ -1,4 +1,4 @@
--- DROP DATABASE SSEF;
+DROP DATABASE SSEF;
 
 CREATE DATABASE SSEF;
 USE SSEF;
@@ -113,7 +113,7 @@ CREATE TABLE PDFDATA (
 	1CCreative varchar(300),
 	1CSAPrinted varchar(50),
 	1CSATitle varchar(50),
-	1CSAInstitution varchar(50),
+	1CSAInstitution varchar(500),
 	1CSADateSigned varchar(10),
 	1CSAAddress varchar(100),
 	1CSAEmail varchar(50),

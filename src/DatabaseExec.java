@@ -30,7 +30,7 @@ public class DatabaseExec {
 			//Execute queries
 			Statement stmt = conn.createStatement();
 			
-			String updateCommand = "INSERT INTO PDFEXTRACT ";
+			String updateCommand = "INSERT INTO PDFDATA ";
 			String attributeCommand = "(SSEFCode, ";
 			String valueCommand = "(\"" + SSEFCode + "\", ";
 			for (int i = 0; i < f.dataList.size(); i++) {
@@ -38,7 +38,7 @@ public class DatabaseExec {
 				boolean requiresQuotes = d.getRequiresQuotes();
 				attributeCommand += d.getFieldName();
 				valueCommand += ((requiresQuotes)?"\"":"") + d.getData() + ((requiresQuotes)?"\"":"");
-				if (i != f.dataList.size()-1) {
+				if (i != f.dataList.size()) {
 					attributeCommand += ", ";
 					valueCommand += ",";
 				}
@@ -47,7 +47,8 @@ public class DatabaseExec {
 			attributeCommand += ")";
 			valueCommand += ")";
 			updateCommand +=  attributeCommand + " VALUES " + valueCommand + ";";
-			stmt.executeUpdate(updateCommand);
+            System.out.println(updateCommand);
+            stmt.executeUpdate(updateCommand);
 			
 			//Close connection
 			conn.close();
