@@ -25,7 +25,10 @@ public class FormData {
 				st = new StringTokenizer(inputLine, ":");
 				fieldName = st.nextToken().replaceAll("\\s", "");
 				fieldType = st.nextToken();
-				fieldData = st.nextToken();
+                if (!st.hasMoreTokens())
+                    fieldData = "";
+                else
+                    fieldData = st.nextToken();
 
                 System.out.println(fieldName + fieldType + fieldData + "POOTUS");
                 if (fieldType.equals("Text"))

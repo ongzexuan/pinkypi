@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e6197ea-c8c9-4d3a-89fc-ffad27411836" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FormData.java" afterPath="$PROJECT_DIR$/src/FormData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SSEFInterface.java" afterPath="$PROJECT_DIR$/src/SSEFInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pdfParser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -120,7 +119,7 @@
       <file leaf-file-name="FormData.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FormData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="33" selection-start="1394" selection-end="1394" vertical-scroll-proportion="1.2643678" vertical-offset="0" max-vertical-offset="750">
+            <state line="31" column="16" selection-start="917" selection-end="917" vertical-scroll-proportion="0.5114943" vertical-offset="138" max-vertical-offset="795">
               <folding />
             </state>
           </provider>
@@ -314,6 +313,23 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="FormData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="FormData" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="pdfParser" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -484,14 +500,16 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.pdfParser" />
       <item index="1" class="java.lang.String" itemvalue="Application.SaxApp" />
       <item index="2" class="java.lang.String" itemvalue="Application.SSEFView" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FormData" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Application.SSEFView" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FormData" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -873,7 +891,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FormData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="33" selection-start="1394" selection-end="1394" vertical-scroll-proportion="1.2643678" vertical-offset="0" max-vertical-offset="750">
+        <state line="31" column="16" selection-start="917" selection-end="917" vertical-scroll-proportion="0.5114943" vertical-offset="138" max-vertical-offset="795">
           <folding />
         </state>
       </provider>
