@@ -10,6 +10,10 @@ import java.awt.event.ActionListener;
 public class SSEFView extends JPanel implements ActionListener {
     private SSEFInterface si;
 
+    private JPanel SSEFPanel;
+    private JPanel WeatherPanel;
+    private JPanel StocksPanel;
+
     private JButton uploadButton;
     private JTextField codeField;
 
@@ -19,16 +23,20 @@ public class SSEFView extends JPanel implements ActionListener {
     }
 
     public void constructGUI(){
+        SSEFPanel = new JPanel();
+
         uploadButton = new JButton("Upload");
         uploadButton.addActionListener(this);
         codeField = new JTextField("SSEF Code");
 
         //size setting
-        this.setLayout(new FlowLayout());
+        SSEFPanel.setLayout(new FlowLayout());
         codeField.setPreferredSize(new Dimension(200, 30));
 
-        this.add(codeField);
-        this.add(uploadButton);
+        SSEFPanel.add(codeField);
+        SSEFPanel.add(uploadButton);
+
+        this.add(SSEFPanel);
     }
 
     public SSEFView(){
