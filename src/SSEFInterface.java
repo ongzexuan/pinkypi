@@ -26,6 +26,7 @@ public class SSEFInterface {
 
     }
 
+    // Code for MySQL Login begins here
     public void setLogin(String username, String password){
         dbUsername = username;
         dbPassword = password;
@@ -41,6 +42,8 @@ public class SSEFInterface {
     public boolean isLoggedIn(){
         return loginworks;
     }
+
+    // Code to create SSEF database here
 
     public boolean databaseExists(){
         try {
@@ -67,6 +70,8 @@ public class SSEFInterface {
             e.printStackTrace();
         }
     }
+
+    // Code to upload file is here
 
     public void uploadFile(String code, String filename){
         pdfParserDevice parser = new pdfParserDevice(filename, "temp.txt");
