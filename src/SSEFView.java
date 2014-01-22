@@ -19,7 +19,45 @@ public class SSEFView extends JPanel implements ActionListener {
 
     public SSEFView(SSEFInterface si){
         this.si = si;
+                 /*
+        login();
+        while(!si.isLoggedIn()){
+            System.out.println("FFFF");
+            JOptionPane.showMessageDialog(this,
+                    "Wrong password",
+                    "Please login again",
+                    JOptionPane.ERROR_MESSAGE);
+            login();
+        }
+
+        System.out.println("Checking for database");
+        if (!si.databaseExists()){
+            System.out.println("Creating database");
+            si.constructDatabase();
+        }
+        System.out.println("Database exists!");  */
         constructGUI();
+    }
+
+    public void login(){
+        String u, p;
+        u = (String) JOptionPane.showInputDialog(
+                this,
+                "MySQL username",
+                "Login to MySQL",
+                JOptionPane.PLAIN_MESSAGE,
+                null,
+                null,
+                "Username");
+        p = (String) JOptionPane.showInputDialog(
+                this,
+                "MySQL password",
+                "Secure Login",
+                JOptionPane.PLAIN_MESSAGE,
+                null,
+                null,
+                "Password");
+        si.setLogin(u, p);
     }
 
     public void constructGUI(){
