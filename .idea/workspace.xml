@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e6197ea-c8c9-4d3a-89fc-ffad27411836" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SaxApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/weatherDevice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pdfParser.java" afterPath="$PROJECT_DIR$/src/pdfParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pdfParserDevice.java" afterPath="$PROJECT_DIR$/src/pdfParserDevice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WeatherObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/quick_json_1_0_2_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfParser.iml" afterPath="$PROJECT_DIR$/pdfParser.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/weatherDevice.java" afterPath="$PROJECT_DIR$/src/weatherDevice.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pdfParser.iws" />
@@ -70,10 +71,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pdfParser.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pdfParser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pdfParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="29" selection-start="852" selection-end="852" vertical-scroll-proportion="0.19430052" vertical-offset="210" max-vertical-offset="2955">
+            <state line="20" column="0" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="3210">
               <folding />
             </state>
           </provider>
@@ -82,10 +83,8 @@
       <file leaf-file-name="pdfParserDevice.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pdfParserDevice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="45" selection-start="1303" selection-end="1303" vertical-scroll-proportion="-19.192308" vertical-offset="116" max-vertical-offset="1665">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="47" column="45" selection-start="1303" selection-end="1303" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="1755">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,23 +92,17 @@
       <file leaf-file-name="weatherDevice.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/weatherDevice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="0" selection-start="1458" selection-end="1458" vertical-scroll-proportion="-5.3461537" vertical-offset="731" max-vertical-offset="2910">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="65" column="54" selection-start="1679" selection-end="1679" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="2295">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SaxApp.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SaxApp.java">
+      <file leaf-file-name="WeatherObject.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/WeatherObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="10" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1725">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="27" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="0.4194079" vertical-offset="0" max-vertical-offset="990">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -136,6 +129,7 @@
         <option value="$PROJECT_DIR$/src/pdfParser.java" />
         <option value="$PROJECT_DIR$/src/SaxApp.java" />
         <option value="$PROJECT_DIR$/src/weatherDevice.java" />
+        <option value="$PROJECT_DIR$/src/WeatherObject.java" />
       </list>
     </option>
   </component>
@@ -172,6 +166,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -204,14 +200,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="quick-json-1.0.2.3.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdfParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pinkypi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quick-json-1.0.2.3.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdfParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pinkypi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -521,12 +547,14 @@
       <workItem from="1390206530783" duration="1269000" />
       <workItem from="1390208132421" duration="2650000" />
       <workItem from="1390216202505" duration="737000" />
-      <workItem from="1390227446427" duration="2745000" />
+      <workItem from="1390227446427" duration="5715000" />
+      <workItem from="1390270405738" duration="1529000" />
+      <workItem from="1390284731361" duration="52000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9422000" />
+    <option name="totallyTimeSpent" value="13973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="705" extended-state="6" />
@@ -545,19 +573,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24921875" sideWeight="0.67016494" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -584,6 +612,62 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pdfParser.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="3210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pdfParserDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="45" selection-start="1303" selection-end="1303" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="1755">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weatherDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="54" selection-start="1679" selection-end="1679" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="2295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WeatherObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pdfParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="29" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pdfParserDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="45" selection-start="1303" selection-end="1303" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="1755">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weatherDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="20" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="2190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SaxApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="10" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1725">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pdfParser.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="29" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3180">
           <folding />
         </state>
@@ -592,19 +676,14 @@
     <entry file="file://$PROJECT_DIR$/src/pdfParserDevice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="20" selection-start="575" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="2280">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/weatherDevice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="30" selection-start="1887" selection-end="1887" vertical-scroll-proportion="0.0" vertical-offset="772" max-vertical-offset="2205">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -618,19 +697,14 @@
     <entry file="file://$PROJECT_DIR$/src/pdfParserDevice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="20" selection-start="575" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="2280">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/weatherDevice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="21" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1800">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -644,9 +718,7 @@
     <entry file="file://$PROJECT_DIR$/src/pdfParserDevice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="125" column="0" selection-start="3650" selection-end="3650" vertical-scroll-proportion="0.0" vertical-offset="1875" max-vertical-offset="2220">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -660,9 +732,7 @@
     <entry file="file://$PROJECT_DIR$/src/pdfParserDevice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1560">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -676,9 +746,7 @@
     <entry file="file://$PROJECT_DIR$/src/pdfParserDevice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="30" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1560">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -719,43 +787,40 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/javax/xml/parsers/SAXParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="227" column="14" selection-start="8071" selection-end="8071" vertical-scroll-proportion="1.6115289" vertical-offset="2222" max-vertical-offset="7875">
+        <state line="227" column="14" selection-start="8071" selection-end="8071" vertical-scroll-proportion="1.6115289" vertical-offset="2222" max-vertical-offset="7875" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SaxApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="10" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.098684214" vertical-offset="780" max-vertical-offset="1605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pdfParserDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="45" selection-start="1303" selection-end="1303" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pdfParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2955">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/weatherDevice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="1458" selection-end="1458" vertical-scroll-proportion="-5.3461537" vertical-offset="731" max-vertical-offset="2910">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="65" column="54" selection-start="1679" selection-end="1679" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="2295">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SaxApp.java">
+    <entry file="file://$PROJECT_DIR$/src/WeatherObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="10" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1725">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pdfParserDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="45" selection-start="1303" selection-end="1303" vertical-scroll-proportion="-19.192308" vertical-offset="116" max-vertical-offset="1665">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pdfParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="29" selection-start="852" selection-end="852" vertical-scroll-proportion="0.19430052" vertical-offset="210" max-vertical-offset="2955">
+        <state line="27" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="0.4194079" vertical-offset="0" max-vertical-offset="990">
           <folding />
         </state>
       </provider>
