@@ -22,13 +22,10 @@ public class FormData {
 			String inputLine, fieldName, fieldType, fieldData;
 			while (sc.hasNextLine()) {
                 inputLine = sc.nextLine();
-				st = new StringTokenizer(inputLine, ":");
+				st = new StringTokenizer(inputLine, ":+-#");
 				fieldName = st.nextToken().replaceAll("\\s", "");
 				fieldType = st.nextToken();
-                if (!st.hasMoreTokens())
-                    fieldData = "";
-                else
-                    fieldData = st.nextToken();
+				fieldData = st.nextToken();
 
                 System.out.println(fieldName + fieldType + fieldData + "POOTUS");
                 if (fieldType.equals("Text"))
