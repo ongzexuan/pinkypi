@@ -26,16 +26,10 @@ public class FormData {
 				fieldType = st.nextToken();
 				fieldData = st.nextToken();
 				
-				switch (fieldType) {
-				case "Text":
+				if (fieldType.equals("Text"))
 					dataList.add(new DataSet<String>(fieldName, fieldData, true));
-					break;
-				case "Checkbox":
+				else if (fieldType.equals("Checkbox"))
 					dataList.add(new DataSet<Boolean>(fieldName, (fieldData.equals("No")?false:true), false));
-					break;
-				default:
-					break;
-				}
 			}
 			
 			sc.close();
