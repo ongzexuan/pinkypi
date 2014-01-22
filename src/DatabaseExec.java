@@ -44,6 +44,8 @@ public class DatabaseExec {
 				}
 				f.dataList.add(d);
 			}
+			attributeCommand += ")";
+			valueCommand += ")";
 			updateCommand +=  attributeCommand + " VALUES " + valueCommand + ";";
 			stmt.executeUpdate(updateCommand);
 			
