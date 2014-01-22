@@ -9,14 +9,14 @@ public class FormData {
 	String SSEFCode;
 	LinkedList<DataSet> dataList;
 	
-	public FormData(String SSEFCode, File inputData) {
+	public FormData(String SSEFCode, String filename) {
 		this.SSEFCode = SSEFCode;
-		readFromFile(inputData);
+		readFromFile(filename);
 	}
 	
-	private void readFromFile(File input) {
+	private void readFromFile(String input) {
 		try {
-			Scanner sc = new Scanner(input);
+			Scanner sc = new Scanner(new File(input));
 			StringTokenizer st;
 			String inputLine, fieldName, fieldType, fieldData;
 			while (sc.hasNextLine()) {
@@ -25,19 +25,13 @@ public class FormData {
 				fieldName = st.nextToken().replaceAll("\\s", "");
 				fieldType = st.nextToken();
 				fieldData = st.nextToken();
-				
-				switch (fieldType) {
-				case "Text":
+
+                if (fieldType.equals("Text"))
 					dataList.add(new DataSet<String>(fieldName, fieldData, true));
-					break;
-				case "Checkbox":
+				else if (fieldType.equals("Checkbox"))
 					dataList.add(new DataSet<Boolean>(fieldName, (fieldData.equals("No")?false:true), false));
-					break;
-				default:
-					break;
-				}
+
 			}
-			
 			sc.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
