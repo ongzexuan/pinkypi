@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e6197ea-c8c9-4d3a-89fc-ffad27411836" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SSEFView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SSEFView.java" afterPath="$PROJECT_DIR$/src/SSEFView.java" />
     </list>
     <ignored path="pdfParser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,16 +87,16 @@
       <file leaf-file-name="SSEFInterface.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SSEFInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="56" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+            <state line="16" column="0" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SSEFView.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SSEFView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SSEFView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="48" selection-start="910" selection-end="910" vertical-scroll-proportion="0.6605505" vertical-offset="180" max-vertical-offset="900">
+            <state line="43" column="0" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.0" vertical-offset="370" max-vertical-offset="915">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,10 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FormData.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="FormData.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FormData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="42" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+            <state line="29" column="0" selection-start="783" selection-end="783" vertical-scroll-proportion="0.47706422" vertical-offset="115" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -778,13 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FormData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="42" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pdfParserDevice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="45" selection-start="1303" selection-end="1303" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1560">
@@ -792,19 +784,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SSEFView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.0" vertical-offset="370" max-vertical-offset="915">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SSEFInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="56" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+        <state line="16" column="0" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SSEFView.java">
+    <entry file="file://$PROJECT_DIR$/src/FormData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="48" selection-start="910" selection-end="910" vertical-scroll-proportion="0.6605505" vertical-offset="180" max-vertical-offset="900">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="29" column="0" selection-start="783" selection-end="783" vertical-scroll-proportion="0.47706422" vertical-offset="115" max-vertical-offset="660">
+          <folding />
         </state>
       </provider>
     </entry>

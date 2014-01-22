@@ -20,6 +20,7 @@ public class SSEFView extends JPanel implements ActionListener {
 
     public void constructGUI(){
         uploadButton = new JButton("Upload");
+        uploadButton.addActionListener(this);
         codeField = new JTextField("SSEF Code");
 
         //size setting
