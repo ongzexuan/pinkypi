@@ -9,15 +9,15 @@ public class FormData {
 	String SSEFCode;
 	LinkedList<DataSet> dataList;
 	
-	public FormData(String SSEFCode, String filename) {
+	public FormData(String SSEFCode, String content) {
 		this.SSEFCode = SSEFCode;
         dataList = new LinkedList<DataSet>();
-		readFromFile(filename);
+		readFromFile(content);
 	}
 	
 	private void readFromFile(String input) {
 		try {
-            Scanner sc = new Scanner(new File(input));
+            Scanner sc = new Scanner(input);
 			StringTokenizer st;
 			String inputLine, fieldName, fieldType, fieldData;
 			while (sc.hasNextLine()) {
@@ -39,7 +39,7 @@ public class FormData {
 
 			}
 			sc.close();
-		} catch (FileNotFoundException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
@@ -48,7 +48,4 @@ public class FormData {
 		return SSEFCode;
 	}
 
-    public static void main(String[] args) {
-        new FormData("HUH", "temp.txt");
-    }
 }

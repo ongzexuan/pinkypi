@@ -7,8 +7,7 @@
  */
 
 import com.itextpdf.text.*;
-import com.itextpdf.text.io.RandomAccessSource;
-import com.itextpdf.text.io.RandomAccessSourceFactory;
+import com.itextpdf.text.io.*;
 import com.itextpdf.text.pdf.*;
 import com.itextpdf.text.pdf.parser.*;
 
@@ -25,16 +24,40 @@ public class pdfParserDevice {
         out = "";
     }
 
+    public pdfParserDevice(String in) {
+        this.in = in;
+    }
+
     public pdfParserDevice(String in, String out) {
         this.in = in;
         this.out = out;
     }
 
-    public void getFields() {
+    public void output() {
+        if (!in.equals("") && !out.equals("")) {
+            String s = getFields();
+            try {
+                PrintWriter pw = new PrintWriter(new FileOutputStream(out));//output
+                pw.print(s);
+                pw.flush();
+                pw.close();
+                System.out.println("successful data output to "+out);
+            } catch(Exception e) {
+                e.printStackTrace();
+            }
+        } else {
+            System.out.println("input/output file is missing!");
+        }
+
+    }
+
+    public String getFields() {
+        String rtnString = "";
         try {
 
+
             PdfReader reader = new PdfReader(in);//input
-            PrintWriter pw = new PrintWriter(new FileOutputStream(out));//output
+
             AcroFields form = reader.getAcroFields();//get AcroFields (i.e. fill-in-spaces)
 
             Set<String> fields = form.getFields().keySet();
@@ -42,35 +65,35 @@ public class pdfParserDevice {
 
                 boolean isCheckBox = false;
 
-                pw.print(key + ":");
+                rtnString = rtnString = rtnString.concat(key + ":");
                 switch(form.getFieldType(key)) {   //may be useful for sorting later
                     case AcroFields.FIELD_TYPE_CHECKBOX:
-                        pw.print("Checkbox");
+                        rtnString = rtnString.concat("Checkbox");
                         isCheckBox = true;
                         break;
                     case AcroFields.FIELD_TYPE_COMBO:
-                        pw.print("Combobox");
+                        rtnString = rtnString.concat("Combobox");
                         break;
                     case AcroFields.FIELD_TYPE_LIST:
-                        pw.print("List");
+                        rtnString = rtnString.concat("List");
                         break;
                     case AcroFields.FIELD_TYPE_NONE:
-                        pw.print("None");
+                        rtnString = rtnString.concat("None");
                         break;
                     case AcroFields.FIELD_TYPE_PUSHBUTTON:
-                        pw.print("Pushbutton");
+                        rtnString = rtnString.concat("Pushbutton");
                         break;
                     case AcroFields.FIELD_TYPE_RADIOBUTTON:
-                        pw.print("Radiobutton");
+                        rtnString = rtnString.concat("Radiobutton");
                         break;
                     case AcroFields.FIELD_TYPE_SIGNATURE:
-                        pw.print("Signature");
+                        rtnString = rtnString.concat("Signature");
                         break;
                     case AcroFields.FIELD_TYPE_TEXT:
-                        pw.print("Text");
+                        rtnString = rtnString.concat("Text");
                         break;
                     default:
-                        pw.print("?");
+                        rtnString = rtnString.concat("?");
                 }
 
                 //post-processing for checkboxes to print no when null value is read
@@ -82,10 +105,11 @@ public class pdfParserDevice {
                 }
 
                 //print data
-                pw.println(":" + data);
-
+                rtnString = rtnString.concat(":" + data + "\n");
 
             }
+
+            reader.close();
 
             // Get possible values for field "CP_1"
 //                pw.println("Possible values for SCActEnd:");
@@ -96,16 +120,10 @@ public class pdfParserDevice {
 //                }
 
 
-            //close writer and reader
-            pw.flush();
-            pw.close();
-            reader.close();
-
-
-
         } catch(Exception e) {
             e.printStackTrace();
         }
+        return rtnString;
     }
 
 }

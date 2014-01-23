@@ -74,12 +74,11 @@ public class SSEFInterface {
     // Code to upload file is here
 
     public void uploadFile(String code, String filename){
-        pdfParserDevice parser = new pdfParserDevice(filename, "temp.txt");
-        parser.getFields();
-        FormData fd = new FormData(code, "temp.txt");
+        pdfParserDevice parser = new pdfParserDevice(filename);
+        FormData fd = new FormData(code, parser.getFields());
         DatabaseExec de = new DatabaseExec("SSEF");
         de.updateToDatabase(fd);
-        File temp = new File("temp.txt");
-        if (temp.delete()) System.out.println("File uploaded successfully!");
+
+        System.out.println("File uploaded successfully!");
     }
 }

@@ -10,6 +10,8 @@
     <orderEntry type="library" name="itextpdf-5.4.5" level="project" />
     <orderEntry type="library" name="quick-json-1.0.2.3" level="project" />
     <orderEntry type="library" name="gson-2.2.4" level="project" />
+    <orderEntry type="library" name="gson-2.2.4 (2)" level="project" />
+    <orderEntry type="library" name="com.mysql.jdbc_5.1.5" level="project" />
   </component>
 </module>
 

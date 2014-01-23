@@ -10,9 +10,9 @@ import java.awt.event.ActionListener;
 public class SSEFView extends JPanel implements ActionListener {
     private SSEFInterface si;
 
-    private JPanel SSEFPanel;
-    private JPanel WeatherPanel;
-    private JPanel StocksPanel;
+    private JPanel SSEFPanel; //FOR ACTUALLY UPLOADING THE SSEF DATA
+    private JPanel WeatherPanel; //FOR WEATHER
+    private JPanel StocksPanel; //FOR STOCKS
 
     private JButton uploadButton;
     private JTextField codeField;

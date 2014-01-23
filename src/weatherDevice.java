@@ -8,8 +8,6 @@ import com.itextpdf.text.io.RandomAccessSource;
 import com.itextpdf.text.io.RandomAccessSourceFactory;
 import com.itextpdf.text.pdf.*;
 import com.itextpdf.text.pdf.parser.*;
-import com.json.parsers.JSONParser;
-import com.json.parsers.JsonParserFactory;
 import sun.org.mozilla.javascript.internal.json.JsonParser;
 
 
@@ -18,23 +16,23 @@ import java.net.URLConnection;
 import java.util.*;
 import java.io.*;
 
-public class weatherDevice {
+public class WeatherDevice {
 
     private String in;
     private String out;
     private URL url = null;
 
-    public weatherDevice() {
+    public WeatherDevice() {
         this.in = "";
         this.out = "";
     }
 
-    public weatherDevice(String in, String out) {
+    public WeatherDevice(String in, String out) {
         this.in = in;
         this.out = out;
     }
 
-    public weatherDevice(String in, String out, String link) {
+    public WeatherDevice(String in, String out, String link) {
         this.in = in;
         this.out = out;
         try {
@@ -55,6 +53,7 @@ public class weatherDevice {
         pullDataFromSource(contents);
     }
 
+    //TESTING
     public void pullDataFromSource(String content) {
 
         try {
@@ -62,28 +61,7 @@ public class weatherDevice {
             Gson gson = new Gson();
             WeatherObject weatherObject = gson.fromJson(content, WeatherObject.class);
 
-
             System.out.println(weatherObject.getDt());
-
-
-//            JsonParserFactory factory = JsonParserFactory.getInstance();
-//            JSONParser parser = factory.newJsonParser();
-//            Map jsonData = parser.parseJson(content);
-//
-//            ArrayList weather = (ArrayList)jsonData.get("weather");
-//
-//
-//
-//            //String newcontent = weather.toString();
-//
-////            System.out.println((String)jsonData.get("id"));
-////            System.out.println((String)jsonData.get("main"));
-////            System.out.println((String)jsonData.get("description"));
-//
-//            //System.out.println(weather.get(0));
-//            //System.out.println(weather.get(1));
-//            //String string = (String)jsonData.get("name");
-//            //System.out.println(string);
 
         } catch(Exception e) {
             e.printStackTrace();
