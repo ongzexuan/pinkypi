@@ -2,62 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0827891-fd10-4ba3-beda-c8dc442c1d98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_mysql_jdbc_5_1_5.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gson-2.2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/itextpdf-5.4.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/TestClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/config/handlers/ConfigHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/config/handlers/JsonConfigHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/config/handlers/ValidationConfigType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/config/handlers/XmlConfigHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/config/json-config.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/config/json-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/constants/JSONConstants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/exceptions/JSONConfigInitializationException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/exceptions/JSONParsingException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/exceptions/JSONRuntimeException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/exceptions/SerializingException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/generators/JSONGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/generators/JsonGeneratorFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/generators/TestClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/generators/TestPojo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/parsers/JSONParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/parsers/JsonParserFactory$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/parsers/JsonParserFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/serializers/ArraySerializer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/serializers/ClassSerializer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/serializers/DateSerializer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/serializers/IterableDataSerializer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/serializers/JsonSerializer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/serializers/ListSerializer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/serializers/MapSerializer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/serializers/NumberSerializer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/serializers/PropertiesSerializer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/serializers/SetSerializer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/serializers/pojos/SerializerOptions.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/types/CollectionTypes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/types/DefaultCollectionType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/utils/CachedInstances.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/utils/ClassUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/utils/JSONUtility.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/validations/custom/PatternValidator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-json-1.0.2.3/com/json/validations/custom/SpecialValidator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sax2r2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/SaxApp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pdfParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/weather.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/WeatherDevice.java" afterPath="$PROJECT_DIR$/src/WeatherDevice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FormData.java" afterPath="$PROJECT_DIR$/src/FormData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SSEFInterface.java" afterPath="$PROJECT_DIR$/src/SSEFInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SSEFView.java" afterPath="$PROJECT_DIR$/src/SSEFView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfParser.iml" afterPath="$PROJECT_DIR$/pdfParser.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pdfParserDevice.java" afterPath="$PROJECT_DIR$/src/pdfParserDevice.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DataSet.java" afterPath="$PROJECT_DIR$/src/pdfParser/DataSet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DatabaseExec.java" afterPath="$PROJECT_DIR$/src/pdfParser/DatabaseExec.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FormData.java" afterPath="$PROJECT_DIR$/src/pdfParser/FormData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SSEFInterface.java" afterPath="$PROJECT_DIR$/src/pdfParser/SSEFInterface.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SSEFView.java" afterPath="$PROJECT_DIR$/src/pdfParser/SSEFView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/WeatherObject.java" afterPath="$PROJECT_DIR$/src/pdfParser/WeatherObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pdfParserDevice.java" afterPath="$PROJECT_DIR$/src/pdfParser/pdfParserDevice.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/weatherDevice.java" afterPath="$PROJECT_DIR$/src/pdfParser/WeatherDevice.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pdfParser.iws" />
@@ -120,67 +72,6 @@
   <component name="FavoritesManager">
     <favorites_list name="pdfParser" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DatabaseExec.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DatabaseExec.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="54" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1860">
-              <folding>
-                <marker date="1390466336000" expanded="true" signature="843:862" placeholder="INSERT INTO ..." />
-                <marker date="1390466336000" expanded="true" signature="936:958" placeholder="(\&quot;missingVa..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SSEFInterface.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SSEFInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="35" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.0" vertical-offset="1155" max-vertical-offset="1350">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeatherDevice.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WeatherDevice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="13" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="1755">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FormData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FormData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="1428" selection-end="1428" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="765">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pdfParserDevice.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pdfParserDevice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="31" selection-start="2729" selection-end="2729" vertical-scroll-proportion="1.875" vertical-offset="0" max-vertical-offset="1845">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SSEFView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SSEFView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="19" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1605">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
@@ -197,6 +88,7 @@
         <option value="$PROJECT_DIR$/src/pdfParserDevice.java" />
         <option value="$PROJECT_DIR$/src/WeatherDevice.java" />
         <option value="$PROJECT_DIR$/src/FormData.java" />
+        <option value="$PROJECT_DIR$/src/pdfParser/SSEFInterface.java" />
       </list>
     </option>
   </component>
@@ -205,7 +97,7 @@
     <option name="width" value="1280" />
     <option name="height" value="705" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -268,6 +160,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdfParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -285,8 +181,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,7 +193,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/UMLDiagram.uml" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -309,6 +205,11 @@
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="build" />
+    <property name="SearchEverywhereHistory" value="" />
+    <property name="options.lastSelected" value="preferences.customizations" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Application.SSEFView">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
@@ -362,38 +263,6 @@
       <option name="trusted" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -420,6 +289,38 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -458,25 +359,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -512,9 +394,28 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <configuration default="false" name="SSEFView" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="SSEFView" />
+      <option name="MAIN_CLASS_NAME" value="pdfParser.SSEFView" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -571,21 +472,23 @@
       <workItem from="1390468396294" duration="440000" />
       <workItem from="1390475342384" duration="1858000" />
       <workItem from="1390477336088" duration="192000" />
+      <workItem from="1390478404251" duration="1847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3043000" />
+    <option name="totallyTimeSpent" value="4890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="705" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -599,12 +502,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -621,6 +523,7 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -628,132 +531,6 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DatabaseExec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="54" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1860">
-          <folding>
-            <marker date="1390466336000" expanded="true" signature="843:862" placeholder="INSERT INTO ..." />
-            <marker date="1390466336000" expanded="true" signature="936:958" placeholder="(\&quot;missingVa..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SSEFInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="35" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.0" vertical-offset="1155" max-vertical-offset="1350">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WeatherDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="13" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="1965">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FormData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1428" selection-end="1428" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pdfParserDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="19" selection-start="3887" selection-end="3887" vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="2025">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SSEFView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1605">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DatabaseExec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="12" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1935">
-          <folding>
-            <marker date="1390466336000" expanded="true" signature="843:862" placeholder="INSERT INTO ..." />
-            <marker date="1390466336000" expanded="true" signature="936:958" placeholder="(\&quot;missingVa..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SSEFInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="27" selection-start="2294" selection-end="2294" vertical-scroll-proportion="0.0" vertical-offset="1155" max-vertical-offset="1275">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SSEFView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1605">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DatabaseExec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1860">
-          <folding>
-            <marker date="1390466336000" expanded="true" signature="843:862" placeholder="INSERT INTO ..." />
-            <marker date="1390466336000" expanded="true" signature="936:958" placeholder="(\&quot;missingVa..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SSEFView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1545">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SSEFInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="35" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.0" vertical-offset="861" max-vertical-offset="1260">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DatabaseExec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="54" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1860">
-          <folding>
-            <marker date="1390466336000" expanded="true" signature="843:862" placeholder="INSERT INTO ..." />
-            <marker date="1390466336000" expanded="true" signature="936:958" placeholder="(\&quot;missingVa..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WeatherDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="13" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FormData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1428" selection-end="1428" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pdfParserDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="31" selection-start="2729" selection-end="2729" vertical-scroll-proportion="1.875" vertical-offset="0" max-vertical-offset="1845">
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
 

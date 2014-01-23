@@ -1,4 +1,4 @@
-/**
+package pdfParser; /**
  * Created with IntelliJ IDEA.
  * User: ongzexuan
  * Date: 9/1/14

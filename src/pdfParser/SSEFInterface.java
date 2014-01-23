@@ -1,4 +1,5 @@
-import java.io.File;
+package pdfParser;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -21,7 +22,7 @@ public class SSEFInterface {
         loginworks = false;
     }
 
-    // poll() will update fields in the future when SSEFInterface communicates with the Models
+    // poll() will update fields in the future when pdfParser.SSEFInterface communicates with the Models
     public void poll(){
 
     }

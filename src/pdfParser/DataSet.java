@@ -1,3 +1,4 @@
+package pdfParser;
 
 /**
  * Data structure designed to house the data of each field present in the SSEF form.

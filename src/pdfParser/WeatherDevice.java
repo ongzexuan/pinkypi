@@ -1,19 +1,12 @@
-/**
+package pdfParser; /**
  * Created by ongzexuan on 20/1/14.
  */
 
 import com.google.gson.Gson;
-import com.itextpdf.text.*;
-import com.itextpdf.text.io.RandomAccessSource;
-import com.itextpdf.text.io.RandomAccessSourceFactory;
-import com.itextpdf.text.pdf.*;
-import com.itextpdf.text.pdf.parser.*;
-import sun.org.mozilla.javascript.internal.json.JsonParser;
 
 
 import java.net.URL;
 import java.net.URLConnection;
-import java.util.*;
 import java.io.*;
 
 public class WeatherDevice {

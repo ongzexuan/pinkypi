@@ -1,5 +1,5 @@
-import java.io.File;
-import java.io.FileNotFoundException;
+package pdfParser;
+
 import java.util.LinkedList;
 import java.util.Scanner;
 import java.util.StringTokenizer;
