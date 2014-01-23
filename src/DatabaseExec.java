@@ -5,7 +5,10 @@ import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-
+/**
+ * A helper class designed to communicate with the database storing the SSEF form data.
+ * Currently only one method exists to upload a filled form onto the database.
+ */
 public class DatabaseExec {
 	//Connection variables
 	private String url = "jdbc:mysql://localhost:3306/";
@@ -13,10 +16,19 @@ public class DatabaseExec {
 	private String dbUserName = "root";
 	private String dbPassword = "";
 	
+	public DatabaseExec() {
+		this.dbName = "SSEF";
+	}
+	
 	public DatabaseExec(String databaseName) {
 		this.dbName = databaseName;
 	}
 	
+	/**
+	 * Uploads a SSEF form being represented by a FormData Object onto the pre-specified database
+	 * 
+	 * @param f A FormData object which contains the data of the fields in the SSEF form being uploaded
+	 */
 	public void updateToDatabase(FormData f) {
 		String SSEFCode = f.getSSEFCode();
 		
@@ -64,60 +76,4 @@ public class DatabaseExec {
 			e.printStackTrace();
 		}
 	}
-	
-	/*
-	private void executeCommand(String command) {
-		try {
-			//Load drivers
-			Class.forName("com.mysql.jdbc.Driver").newInstance();
-			
-			//Connect to database
-			Connection conn = DriverManager.getConnection(url+dbName, dbUserName, dbPassword);
-			
-			//Execute queries
-			Statement stmt = conn.createStatement();
-			stmt.execute(command);
-			
-			//Close connection
-			conn.close();
-		} catch (SQLException e) {
-			while (e != null) {
-				System.out.println("Message: " + e.getMessage());
-				System.out.println("SQLState: " + e.getSQLState());
-				System.out.println("Vendor Error: " + e.getErrorCode());
-				e.printStackTrace(System.out);
-				e = e.getNextException();
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-	
-	private void executeUpdate(String command) {
-		try {
-			//Load drivers
-			Class.forName("com.mysql.jdbc.Driver").newInstance();
-			
-			//Connect to database
-			Connection conn = DriverManager.getConnection(url+dbName, dbUserName, dbPassword);
-			
-			//Execute queries
-			Statement stmt = conn.createStatement();
-			stmt.executeUpdate(command);
-			
-			//Close connection
-			conn.close();
-		} catch (SQLException e) {
-			while (e != null) {
-				System.out.println("Message: " + e.getMessage());
-				System.out.println("SQLState: " + e.getSQLState());
-				System.out.println("Vendor Error: " + e.getErrorCode());
-				e.printStackTrace(System.out);
-				e = e.getNextException();
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-	*/
 }

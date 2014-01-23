@@ -4,7 +4,10 @@ import java.util.LinkedList;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-
+/**
+ * A macro data structure containing a LinkedList of DataSet, thus being able to effectively capture every data field within the SSEF form.
+ * A SSEF code is required for unique identification.
+ */
 public class FormData {
 	String SSEFCode;
 	LinkedList<DataSet> dataList;
@@ -15,6 +18,10 @@ public class FormData {
 		readFromFile(content);
 	}
 	
+	/**
+	 * Reads from text parsed from the pdfParserDevice, and populates the LinkedList based on its datatype.
+	 * @param input Output of pdfParserDevice that contains information on the various field names, field types and field data
+	 */
 	private void readFromFile(String input) {
 		try {
             Scanner sc = new Scanner(input);
@@ -44,6 +51,10 @@ public class FormData {
 		}
 	}
 	
+	/**
+	 * Getter method for SSEF code, required as a unique identifier when uploading onto the database
+	 * @return SSEF Code
+	 */
 	public String getSSEFCode() {
 		return SSEFCode;
 	}
