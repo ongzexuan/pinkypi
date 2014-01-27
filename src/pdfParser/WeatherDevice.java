@@ -9,6 +9,10 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.io.*;
 
+/**
+ * A extension of the project to provide weather data to improve user experience. Not completed.
+ * Fetches data from openweatherapi.org as a JSON object.
+ */
 public class WeatherDevice {
 
     private String in;

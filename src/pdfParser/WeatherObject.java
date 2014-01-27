@@ -1,7 +1,7 @@
 package pdfParser;
 
 /**
- * Created by ongzexuan on 21/1/14.
+ * The JSON Object for holding the JSON data from openweatherapi.org
  */
 public class WeatherObject {
 

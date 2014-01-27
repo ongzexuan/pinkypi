@@ -14,6 +14,10 @@ import com.itextpdf.text.pdf.parser.*;
 import java.util.*;
 import java.io.*;
 
+
+/**
+ * A manager object for handling PDF file requests and processes.
+ */
 public class pdfParserDevice {
 
     private String in;
@@ -24,15 +28,29 @@ public class pdfParserDevice {
         out = "";
     }
 
+    /**
+     * Creates a pdfParserDevice with the PDF filepath in.
+     *
+     * @param in Filepath of input PDF
+     */
     public pdfParserDevice(String in) {
         this.in = in;
     }
 
+    /**
+     * Creates a pdfParserDevice with the PDF filepath in and the output filepath out.
+     *
+     * @param in Filepath of input PDF
+     * @param out Filepath of output txt
+     */
     public pdfParserDevice(String in, String out) {
         this.in = in;
         this.out = out;
     }
 
+    /**
+     * Prints the Acrofields data of the input PDF to the output file as defined by in and out.
+     */
     public void output() {
         if (!in.equals("") && !out.equals("")) {
             String s = getFields();
@@ -51,6 +69,10 @@ public class pdfParserDevice {
 
     }
 
+    /**
+     * Returns the Acrofield data of the input PDF in a String format denoted by FieldName:FieldType:FieldValue for each entry.
+     * Similar to output(), except that the data is returned as a String instead.
+     */
     public String getFields() {
         String rtnString = "";
         try {
@@ -65,7 +87,7 @@ public class pdfParserDevice {
 
                 boolean isCheckBox = false;
 
-                rtnString = rtnString = rtnString.concat(key + ":");
+                rtnString = rtnString.concat(key + ":");
                 switch(form.getFieldType(key)) {   //may be useful for sorting later
                     case AcroFields.FIELD_TYPE_CHECKBOX:
                         rtnString = rtnString.concat("Checkbox");
