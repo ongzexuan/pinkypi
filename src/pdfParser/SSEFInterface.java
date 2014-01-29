@@ -8,7 +8,7 @@ import java.sql.Statement;
 /**
  * Created by hohankitivan on 1/22/14.
  */
-public class SSEFInterface {
+public class SSEFInterface extends DatabaseExec {
 
     private String url = "jdbc:mysql://localhost:3306/";
     private String dbUsername = "root";

@@ -9,7 +9,7 @@ import java.awt.event.ActionListener;
 /**
  * Created by hohankitivan on 1/22/14.
  */
-public class SSEFView extends JPanel implements ActionListener {
+public class SSEFView extends WeatherObject.Coord implements ActionListener {
     private SSEFInterface si;
 
     private JPanel SSEFPanel; //FOR ACTUALLY UPLOADING THE SSEF DATA
