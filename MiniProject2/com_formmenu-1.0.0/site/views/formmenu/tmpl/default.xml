@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+        <layout title="FormData Component">
+                <message>
+                        <![CDATA[Component for Uploading Research Transcript Data]]>
+                </message>
+        </layout>
+        <fields name="request">
+                <fieldset name="request">
+                        <field
+                                name="id"
+                                type="list"
+                                label="FormData Component_LABEL"
+                                description="FormData Component_DESC"
+                                default="1">
+                                <option value="1">Hello World!</option>
+                                <option value="2">Good bye World!</option>
+                        </field>
+                </fieldset>
+        </fields>
+</metadata>

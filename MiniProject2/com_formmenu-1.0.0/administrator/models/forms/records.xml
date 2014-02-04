@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+              <field name="id" type="text" default="0" label="COM_FORMMENU_FORM_LBL_RECORDS_ID"
+            readonly="true" class="readonly"
+            description="JGLOBAL_FIELD_ID_DESC" /> 
+
+       <field name="created_by" type="createdby" default="" 
+            label="COM_FORMMENU_FORM_LBL_RECORDS_CREATED_BY"
+            description="COM_FORMMENU_FORM_DESC_RECORDS_CREATED_BY"  /> 
+
+       <field name="category" type="text"
+                
+            label="COM_FORMMENU_FORM_LBL_RECORDS_CATEGORY"
+            description="COM_FORMMENU_FORM_DESC_RECORDS_CATEGORY" 
+                 default="Publications, Research Awards etc." 
+                
+                 required="true" 
+            menu_published="0"
+            filter="string"
+            maxlength="50" /> 
+
+       <field name="title" type="text"
+                
+            label="COM_FORMMENU_FORM_LBL_RECORDS_TITLE"
+            description="COM_FORMMENU_FORM_DESC_RECORDS_TITLE" 
+                
+                
+                
+            filter="string"
+            size="50"
+            maxlength="75" /> 
+
+       <field name="description" type="textarea"
+                
+            label="COM_FORMMENU_FORM_LBL_RECORDS_DESCRIPTION"
+            description="COM_FORMMENU_FORM_DESC_RECORDS_DESCRIPTION" 
+                
+                
+                 required="true" 
+            cols="100"
+            rows="8"
+            filter="string" /> 
+
+       <field name="award" type="text"
+                
+            label="COM_FORMMENU_FORM_LBL_RECORDS_AWARD"
+            description="COM_FORMMENU_FORM_DESC_RECORDS_AWARD" 
+                
+                
+                
+            filter="alnum"
+            maxlength="40" /> 
+
+       <field name="year" type="text" size="40" class="inputbox"
+        
+            label="COM_FORMMENU_FORM_LBL_RECORDS_YEAR"
+            description="COM_FORMMENU_FORM_DESC_RECORDS_YEAR" 
+        
+        
+         required="true" 
+        filter="safehtml" /> 
+
+       <field name="score" type="list"
+                
+            label="COM_FORMMENU_FORM_LBL_RECORDS_SCORE"
+            description="COM_FORMMENU_FORM_DESC_RECORDS_SCORE" 
+                
+                
+                
+            multiple="false">
+                <option value="Excellent">Excellent</option>
+                <option value="Merit">Merit</option>
+                <option value="Satisfactory">Satisfactory</option>
+        </field>
+
+	</fieldset>
+
+</form>
