@@ -5,17 +5,17 @@
                         <![CDATA[Component for Uploading Research Transcript Data]]>
                 </message>
         </layout>
-        <fields name="request">
+        <fields
+                name="request"
+                addfieldpath="/administrator/components/com_formmenu/models/fields"
+        >
                 <fieldset name="request">
                         <field
                                 name="id"
-                                type="list"
-                                label="FormData Component_LABEL"
-                                description="FormData Component_DESC"
-                                default="1">
-                                <option value="1">Hello World!</option>
-                                <option value="2">Good bye World!</option>
-                        </field>
+                                type="formmenu"
+                                label="formmenu_LABEL"
+                                description="formmenu_DESC"
+                        />
                 </fieldset>
         </fields>
 </metadata>
